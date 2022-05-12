@@ -1,0 +1,27 @@
+@import "../../common/colors.scss";
+
+.movie-list,
+.show-list {
+  margin: 20px 0px;
+  h2 {
+    color: $font-secondary;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-gap: 15px;
+}
+.search{
+  margin-top: 20px;
+  border-radius:5px ;
+  padding: 5px;
+}
+.searchButton{ padding:  8px;
+  margin-left: 5px;
+  border-radius: 5px;
+
+}
