@@ -33,7 +33,7 @@ const dispatch = useDispatch();
         className="search" 
         placeholder="search the movies"
         onChange={(e)=>setTerm(e.target.value)}></input>
-         <button className="searchButton">search </button>
+         
       </form>
      </div>
       <div className="user-image">
